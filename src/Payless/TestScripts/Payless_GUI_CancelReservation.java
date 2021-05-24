@@ -129,7 +129,7 @@ public class Payless_GUI_CancelReservation
 					
 	/* Capture Screenshot*/
 					String ScreenShotPath = "C:\\Selenium\\Screenshots\\Payless\\Payless_Cancel_Reservation\\";
-					functions.ScreenCapture(ScreenShotPath , ptestcasename);
+					//functions.ScreenCapture(ScreenShotPath , ptestcasename);
 					System.out.println("The Screenshot is taken");
 					
 					try

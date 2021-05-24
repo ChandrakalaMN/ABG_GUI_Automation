@@ -1,4 +1,4 @@
-package checkIn_Delayed;
+package Payless.TestScripts;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -18,7 +18,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import manifest.Extentmanager;
+//import manifest.Extentmanager;
 
 import pomClasses.GUIFunctions;
 import pomClasses.ReadWriteExcel;
@@ -44,7 +44,7 @@ public class Payless_checkIn_Delay {
 		@BeforeTest
 		public void startReport()
 		{
-			extent = Extentmanager.GetExtent();
+			//extent = Extentmanager.GetExtent();
 			//test = extent.createTest("GUI");
 		}
 	

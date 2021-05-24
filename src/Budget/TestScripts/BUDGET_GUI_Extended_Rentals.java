@@ -489,7 +489,7 @@ public class BUDGET_GUI_Extended_Rentals {
 					
 					// taking screenshot
 					String ScreenShotPath = "C:\\Users\\cmn\\Desktop\\Selenium\\Screenshots\\Avis_GUI_Extended_Rentals\\";
-					functions.ScreenCapture(ScreenShotPath, testcasename);
+					//functions.ScreenCapture(ScreenShotPath, testcasename);
 					
 
 					/*

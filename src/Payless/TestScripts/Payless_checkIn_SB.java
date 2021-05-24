@@ -1,4 +1,4 @@
-package checkIn_SB;
+package Payless.TestScripts;
 
 	import java.io.File;
 	import java.text.SimpleDateFormat;
@@ -19,7 +19,7 @@ package checkIn_SB;
 	import com.aventstack.extentreports.ExtentTest;
 	import com.aventstack.extentreports.Status;
 	
-	import manifest.Extentmanager;
+	//import manifest.Extentmanager;
 	
 	import pomClasses.GUIFunctions;
 	import pomClasses.ReadWriteExcel;
@@ -44,7 +44,7 @@ package checkIn_SB;
 		@BeforeTest
 		public void startReport()
 		{
-			extent = Extentmanager.GetExtent();
+			//extent = Extentmanager.GetExtent();
 			//test = extent.createTest("GUI");
 		}
 	

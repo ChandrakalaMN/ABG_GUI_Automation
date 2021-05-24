@@ -90,7 +90,7 @@ public class AVIS_GUI_CreateReservation_MOP
 					String cardReason       = rwe.getCellData("INPUT_DATA", k, 23);
 
 					/* Open GUI URL's */
-					functions.link(thinClient);
+					//functions.link(thinClient);
 
 					/* Login */
 					functions.login(userName, password);
@@ -98,7 +98,7 @@ public class AVIS_GUI_CreateReservation_MOP
 					Thread.sleep(500);
 
 					/* Enter Customer Informations */
-					functions.enterCustomerInformation(lastName, firstName, checkOutDate, checkOutTime, inStation, checkInDate, checkInTime);
+					//functions.enterCustomerInformation(lastName, firstName, checkOutDate, checkOutTime, inStation, checkInDate, checkInTime);
 
 					/* Select car group */
 					functions.selectCarGroupByVT(carGroup);
@@ -170,7 +170,7 @@ public class AVIS_GUI_CreateReservation_MOP
 					//driver.findElement(By.xpath("//div[@class='modal-footer']//div[@class='row']//div[@class='col-md-12 text-left']//button[@value='OK']")).click();
 					driver.findElement(By.id("templateInfoForm:templateInfoButton")).click();
 					Thread.sleep(10000);
-					functions.ScreenCapture("C:\\Selenium\\ScreenShotsCaptured\\AVIS\\", testCaseName);
+					//functions.ScreenCapture("C:\\Selenium\\ScreenShotsCaptured\\AVIS\\", testCaseName);
 					/* to print QV data in Excel */
 
 					WebElement res = driver.findElement(By.cssSelector("#quickViewPanel > div.panel-body > table > tbody > tr:nth-child(8) > td > div:nth-child(2) > div > table > tbody > tr > td:nth-child(2) > a > span"));

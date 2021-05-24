@@ -1,4 +1,4 @@
-package manifest;
+package AVIS.TestScripts;
 	
 	import java.io.File;
 	import java.text.SimpleDateFormat;
@@ -41,7 +41,7 @@ package manifest;
 		@BeforeTest
 		public void startReport()
 		{
-			extent = Extentmanager.GetExtent();
+			//extent = Extentmanager.GetExtent();
 			//test = extent.createTest("GUI");
 		}
 	

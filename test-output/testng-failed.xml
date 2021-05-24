@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
-  <test name="Default test(failed)" parallel="none">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AVIS.TestScripts.Avis_GUI_CreateRentals_Manifest">
+      <class name="AVIS.TestScripts.AVIS_GUI_Extended_Rentals">
         <methods>
-          <include name="test"/>
           <include name="startReport"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- AVIS.TestScripts.Avis_GUI_CreateRentals_Manifest -->
+      </class> <!-- AVIS.TestScripts.AVIS_GUI_Extended_Rentals -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

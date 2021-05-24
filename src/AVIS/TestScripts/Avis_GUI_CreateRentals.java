@@ -76,12 +76,15 @@ public class Avis_GUI_CreateRentals
 	{
 		try{
 			Properties prop = new Properties();
-			FileInputStream fis = new FileInputStream("C:\\Users\\cmn\\Downloads\\ABG-master\\ABG-master\\src\\AVIS\\TestData\\TestDataABGGUI.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\cmn\\git\\ABG_Sele_2020\\ABG_GUI_Automation\\src\\AVIS\\TestData\\TestDataABGGUI.properties");
 			prop.load(fis);
 			//WebDriver driver;
-			ChromeDriver driver = new ChromeDriver();
-			GUIFunctions functions = new GUIFunctions(driver);
+			ChromeOptions chromeOptions= new ChromeOptions(); 
+			chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"); 
 			System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+			ChromeDriver driver = new ChromeDriver(chromeOptions);
+			GUIFunctions functions = new GUIFunctions(driver);
+			
 			driver.navigate().to(prop.getProperty("AvisURL"));
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

@@ -3,11 +3,71 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      
-      <class name="AVIS.TestScripts.Avis_GUI_Create_Reservation"/>
+      <class name="Payless.TestScripts.Payless_checkIn_Delay"/>
+      <class name="Budget.TestScripts.Budget_Walkup_Rentals"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_ReadyLine_Regression"/>
+      <class name="Budget.TestScripts.BUDGET_GUI_Extended_Rentals"/>
+      <class name="AVIS.TestScripts.Avis_GUI_Profile_Mod_Res_Preference"/>
+      <class name="Budget.TestScripts.Budget_GUI_Profile_Mod_Payment_Info"/>
+      <class name="Budget.TestScripts.Budget_GUI_VoidRental"/>
+      <class name="Payless.TestScripts.PAYLESS_GUI_Modify_Rentals"/>
+      <class name="Budget.TestScripts.Budget_GUI_ReadyLine_Regression"/>
+      <class name="Payless.TestScripts.Payless_Walkup_Rentals"/>
+      <class name="Budget.TestScripts.Budget_GUI_CreateRentals_Manifest"/>
+      <class name="Budget.TestScripts.Budget_GUI_ProfileDisplay"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_Modify_Rentals"/>
+      <class name="Budget.TestScripts.Budget_Manifest"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_Modify_Reservation"/>
+      <class name="Budget.TestScripts.Budget_GUI_Prepaid_Voucher_Rentals"/>
+      <class name="AVIS.TestScripts.Avis_GUI_Prepaid_Voucher_Rentals"/>
+      <class name="Payless.TestScripts.Payless_GUI_VoidRental"/>
+      <class name="AVIS.TestScripts.upload"/>
+      <class name="Budget.TestScripts.Budget_GUI_delayed_checkout"/>
+      <class name="Budget.TestScripts.Budget_GUI_Split_Billing_CheckOut"/>
+      <class name="Budget.TestScripts.Budget_checkIn_Delay"/>
+      <class name="AVIS.TestScripts.Avis_GUI_Profile_Mod_Payment_Info"/>
       <class name="AVIS.TestScripts.Avis_GUI_CreateRentals"/>
-     
-      
+      <class name="AVIS.TestScripts.Avis_Delayed_Rental"/>
+      <class name="AVIS.TestScripts.Avis_GUI_Checkin"/>
+      <class name="Payless.TestScripts.Payless_checkIn_SB"/>
+      <class name="AVIS.TestScripts.Avis_Manifest"/>
+      <class name="Payless.TestScripts.Payless_GUI_CreateReservation_MOP"/>
+      <class name="Payless.TestScripts.Payless_GUI_delayed_checkout"/>
+      <class name="Payless.TestScripts.Payless_GUI_Create_Reservation"/>
+      <class name="Payless.TestScripts.PAYLESS_GUI_Manifest"/>
+      <class name="Budget.TestScripts.Budget_GUI_CreateRentals"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_Manifest"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_Extended_Rentals"/>
+      <class name="AVIS.TestScripts.Avis_GUI_Create_Reservation"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_CreateReservation_MOP"/>
+      <class name="AVIS.TestScripts.Avis_GUI_delayed_checkout"/>
+      <class name="Budget.TestScripts.BUDGET_GUI_Modify_Rentals"/>
+      <class name="Payless.TestScripts.Payless_GUI_CreateRentals"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_CancelReservation"/>
+      <class name="Payless.TestScripts.Payless_GUI_CreateRentals_Manifest"/>
+      <class name="Budget.TestScripts.BUDGET_GUI_Manifest"/>
+      <class name="AVIS.TestScripts.Avis_GUI_VoidRental"/>
+      <class name="Budget.TestScripts.Budget_checkIn_SB"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_Split_Billing_CheckOut"/>
+      <class name="AVIS.TestScripts.Avis_GUI_Profile_Mod_CustomerInfo"/>
+      <class name="AVIS.TestScripts.AVIS_GUI_Vehicle_Exchange"/>
+      <class name="checkIn_Delayed.Avis_checkIn_Delay"/>
+      <class name="Payless.TestScripts.Payless_Manifest"/>
+      <class name="AVIS.TestScripts.Avis_checkIn_SB"/>
+      <class name="Payless.TestScripts.Payless_GUI_CancelReservation"/>
+      <class name="Budget.TestScripts.Budget_GUI_Vehicle_Exchange"/>
+      <class name="AVIS.TestScripts.AVIS_Walkup_Rentals"/>
+      <class name="Payless.TestScripts.Payless_GUI_Vehicle_Exchange"/>
+      <class name="AVIS.TestScripts.Avis_GUI_ProfileDisplay"/>
+      <class name="Budget.TestScripts.Budget_GUI_Create_Reservation"/>
+      <class name="Budget.TestScripts.Budget_GUI_CreateReservation_MOP"/>
+      <class name="Payless.TestScripts.Payless_GUI_Split_Billing_CheckOut"/>
+      <class name="Budget.TestScripts.Budget_GUI_Profile_Mod_CustomerInfo"/>
+      <class name="AVIS.TestScripts.Avis_GUI_CreateRentals_Manifest"/>
+      <class name="Payless.TestScripts.Payless_GUI_ReadyLine_Regression"/>
+      <class name="Budget.TestScripts.Budget_GUI_Profile_Mod_Res_Preference"/>
+      <class name="Payless.TestScripts.Payless_GUI_Prepaid_Voucher_Rentals"/>
+      <class name="Payless.TestScripts.Payless_GUI_Modify_Reservation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

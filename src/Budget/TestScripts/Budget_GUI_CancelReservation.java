@@ -108,7 +108,7 @@ public class Budget_GUI_CancelReservation
 					
 	/* Capture Screenshot*/
 					String ScreenShotPath = "C:\\Selenium\\Screenshots\\BUDGET\\BUDGET_Cancel_Reservation\\";
-					functions.ScreenCapture(ScreenShotPath , btestcasename);
+					//functions.ScreenCapture(ScreenShotPath , btestcasename);
 					System.out.println("The Screenshot is taken");
 					
 					try

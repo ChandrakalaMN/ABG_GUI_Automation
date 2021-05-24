@@ -81,7 +81,7 @@ public class AVIS_GUI_Vehicle_Exchange
 				String dlydInTime  = rwe.getCellData("INPUT_DATA", k, 30);	
 				String methpay     = rwe.getCellData("INPUT_DATA", k, 31);	
 				
-				functions.link(thinClient);
+				//functions.link(thinClient);
 
 				/* Login */
 				functions.login(uName, pswd);

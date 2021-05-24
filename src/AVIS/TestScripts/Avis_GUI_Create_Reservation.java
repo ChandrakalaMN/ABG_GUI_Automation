@@ -489,7 +489,7 @@ public class Avis_GUI_Create_Reservation
 						int row = 0;
 						try {
 
-						       Workbook wb = new XSSFWorkbook();
+						       XSSFWorkbook wb = new XSSFWorkbook();
 						      Sheet sheet = wb.createSheet("Ouput");
 						       // FileInputStream obtains input bytes from the image file
 						       String[] pathnames;

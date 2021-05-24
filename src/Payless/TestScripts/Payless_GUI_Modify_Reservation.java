@@ -515,7 +515,7 @@ public class Payless_GUI_Modify_Reservation
 				
 				//taking screenshot
 				String ScreenShotPath = "C:\\Users\\cmn\\Desktop\\Selenium\\Screenshots\\Payless_GUI_Modify_Reservation";
-				functions.ScreenCapture(ScreenShotPath , testcasename);
+				//functions.ScreenCapture(ScreenShotPath , testcasename);
 				
 
 				/*

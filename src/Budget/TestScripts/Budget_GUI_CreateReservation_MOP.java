@@ -91,7 +91,7 @@ public class Budget_GUI_CreateReservation_MOP
 					String cardReason       = rwe.getCellData("INPUT_DATA", k, 23);
 
 					/* Open GUI URL's */
-					functions.link(thinClient);
+					//functions.link(thinClient);
 
 					/* Login */
 					functions.login(userName, password);
@@ -99,7 +99,7 @@ public class Budget_GUI_CreateReservation_MOP
 					Thread.sleep(500);
 
 					/* Enter Customer Informations */
-					functions.enterCustomerInformation(lastName, firstName, checkOutDate, checkOutTime, inStation, checkInDate, checkInTime);
+					//functions.enterCustomerInformation(lastName, firstName, checkOutDate, checkOutTime, inStation, checkInDate, checkInTime);
 
 					/* Select car group */
 					functions.selectCarGroupByVT(carGroup);
@@ -169,7 +169,7 @@ public class Budget_GUI_CreateReservation_MOP
 					Thread.sleep(1000);
 					driver.findElement(By.xpath("//div[@class='modal-footer']//div[@class='row']//div[@class='col-md-12 text-left']//button[@value='OK']")).click();
 					Thread.sleep(3000);
-					functions.ScreenCapture("C:\\Selenium\\ScreenShotsCaptured\\Budget\\", testCaseName);
+					//functions.ScreenCapture("C:\\Selenium\\ScreenShotsCaptured\\Budget\\", testCaseName);
 					
 					/* to print QV data in Excel */
 					WebElement res = driver.findElement(By.cssSelector("#quickViewPanel > div.panel-body > table > tbody > tr:nth-child(8) > td > div:nth-child(2) > div > table > tbody > tr > td:nth-child(2) > a > span"));

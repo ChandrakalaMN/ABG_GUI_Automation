@@ -368,7 +368,7 @@ public class Budget_GUI_CreateRentals_Manifest
 											rwe.setCellData("Budget_GUI_Rentals_Manifest", k, 75, "FAIL");
 											test.log(Status.FAIL, "Fail");
 											String ScreenShotPath = "C:\\Selenium\\Screenshots\\Budget\\Budget_Create_Rentals_Manifest\\";
-											functions.ScreenCapture(ScreenShotPath, btestcasename);
+											//functions.ScreenCapture(ScreenShotPath, btestcasename);
 											System.out.println("The Screenshot is taken");
 											driver.findElement(By.id("checkoutRepromptDialog:repromptForm:repromptCloseButton"))
 													.click();
@@ -382,7 +382,7 @@ public class Budget_GUI_CreateRentals_Manifest
 											rwe.setCellData("Budget_GUI_Rentals_Manifest", k, 75, "FAIL");
 											test.log(Status.FAIL, "Fail");
 											String ScreenShotPath = "C:\\Selenium\\Screenshots\\Budget\\Budget_Create_Rentals_Manifest\\";
-											functions.ScreenCapture(ScreenShotPath, btestcasename);
+											//functions.ScreenCapture(ScreenShotPath, btestcasename);
 											System.out.println("The Screenshot is taken");
 											driver.findElement(By.id("checkoutRepromptDialog:repromptForm:repromptCloseButton"))
 													.click();
@@ -498,7 +498,7 @@ public class Budget_GUI_CreateRentals_Manifest
 									Thread.sleep(7000);
 
 									String ScreenShotPath = "C:\\Selenium\\Screenshots\\Budget\\Budget_Create_Rentals_Manifest\\";
-									functions.ScreenCapture(ScreenShotPath, btestcasename);
+									//functions.ScreenCapture(ScreenShotPath, btestcasename);
 									System.out.println("The Screenshot is taken");
 									Thread.sleep(5000);
 									if (driver.findElement(By.xpath("//input[@id='checkoutDialog:checkoutCompleteForm:checkoutCompleteDoneButton']")).isDisplayed()) 
@@ -508,7 +508,7 @@ public class Budget_GUI_CreateRentals_Manifest
 										Thread.sleep(7000);
 									}
 									String ScreenShotPath2 = "C:\\Selenium\\Screenshots\\Budget\\Budget_Create_Rentals_Manifest\\";
-									functions.ScreenCapture(ScreenShotPath2, btestcasename);
+									//functions.ScreenCapture(ScreenShotPath2, btestcasename);
 									System.out.println("The Screenshot is taken");
 									driver.close();
 									Thread.sleep(2000);
